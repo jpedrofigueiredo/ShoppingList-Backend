@@ -1,4 +1,5 @@
 # ShoppingList Backend
+This project was forked from the [original API backend server by GroundApps](https://github.com/GroundApps/ShoppingList_Backend)
 
 ##Installation
 
@@ -10,12 +11,11 @@
 ###Database
 You can either use MySQL or SQLite. SQLite is easier to set up.
 
-####Installation
-If you use Ubuntu you can use the [PPA](https://launchpad.net/~jklmnn/+archive/ubuntu/groundapps) by executing `add-apt-repository ppa:jklmnn/groundapps`.  
-To install the backend manually , go to http://your.path/.
-Fill up the form, click on create!
-That's all.
+###Installation on the web server
+1. Clone and checkout the code into a directory in your web server.
+2. Navigate to http://yourserver/folder/INSTALL.php to choose the DB configuration and secret key.
+3. Configure ShoppingList for Android to point to your server and use the same secret key on the API server.
+4. When everything is working, remove INSTALL.php from the server.
 
 ## Feedback
-Please do never hesitate to open an issue!<br>
-I know there a some bugs, most likely because I had no idea how to do it otherwise and therefore had to use a workaround.
+Contact me for suggestions or bugs.
